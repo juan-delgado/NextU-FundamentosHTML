@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="200" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+        <g>
+          <title>Logo</title>
+          <text font-style="italic" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="49" x="97" stroke-width="0" fill="black">Juan Delgado</text>
+          <line id="svg_3" y2="58" x2="167" y1="58" x1="28" stroke-width="3" stroke="#43657e" fill="none"/>
+          <line id="svg_4" y2="62" x2="156" y1="62" x1="36" stroke-width="3" stroke="#43657e" fill="none"/>
+          <line id="svg_5" y2="66" x2="132" y1="66" x1="55" stroke-width="3" stroke="#43657e" fill="none"/>
+        </g>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Juan Delgado</h2>
+    </header>
+    <nav>
+      <ul>
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="educacion.html">Educación</a>
+        </li>
+        <li>
+            <a href="experiencia.html">Experiencia</a>
+        </li>
+      </ul>
+    </nav>
+    <article class="educacion">
+      <section>
+        <table border="1">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+
+          <tr>
+            <td>2013</td>
+            <td>Universidad Católica Boliviana</td>
+            <td>La Paz, Bolivia</td>
+            <td>Si</td>
+          </tr>
+
+          <tr>
+            <td>2017</td>
+            <td>UPB</td>
+            <td>La Paz, Bolivia</td>
+            <td>Si</td>
+          </tr>
+
+        </table>
+      </section>
+
+      <section>
+        <h2>Agregar Estudios</h2>
+        <form class="addEstudios" action="index.html" method="post">
+          <p>
+            <label for="year">Año:</label>
+            <select class="" name="year">
+              <option value="1">2013</option>
+              <option value="1">2014</option>
+              <option value="1">2015</option>
+              <option value="1">2016</option>
+              <option value="1">2017</option>
+              <option value="1">2018</option>
+            </select>
+          </p>
+          <p>
+            <label for="institution">Institución</label>
+          <input type="text" name="institution" value="">
+          </p>
+          <p>
+            <label for="place">Lugar:</label>
+          <textarea name="place" rows="4" cols="30"></textarea>
+          </p>
+
+          <p>
+            <label for="finished">¿Culminó?</label>
+            <input type="radio" name="finished" value=""> SI
+            <input type="radio" name="finished" value=""> NO
+          </p>
+          <p>
+            <input type="submit" name="send" value="Enviar">
+          </p>
+
+        </form>
+      </section>
+
+    </article>
+    <footer>
+      <ul>
+        <li><b>Correo: </b> juan.delgado.zeb@gmail.com</li>
+        <li><b>Teléfono: </b>+591 72022008</li>
+        <li><b>Facebook: </b>Juan Delgado Zeballos</li>
+      </ul>
+    </footer>
+  </body>
+</html>
